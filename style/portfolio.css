@@ -159,3 +159,46 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #000000 ;
  }
+ /* resume style */
+ .resume-container{
+    display:flex;
+    gap:94px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size:800 ;
+    padding:10px 50px;
+
+
+ }
+ .resume_column-title-experience{
+    font-size: large;
+    font-weight: 800;
+
+ }
+ .resume-section{
+    text-align: center;
+
+ }
+ /* footer style */
+ .footer-style{
+    background-color: #FFF8F3;
+    margin-top: 20px;
+
+
+
+ }
+ footer{
+    padding:130px;
+    display:flex;
+    gap:100px;
+
+ }
+ footer input[type="text"],footer input[type="email"],footer textarea{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
